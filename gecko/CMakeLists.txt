@@ -25,6 +25,10 @@ if (${CONFIG_BOARD} STREQUAL "efr32xg24_dk2601b")
   set(PRODUCT_NO "sdid215")
 endif()
 
+if (${CONFIG_BOARD} STREQUAL "vi_klimasensor_revb")
+  set(PRODUCT_NO "sdid215")
+endif()
+
 if (${CONFIG_BOARD} STREQUAL "efr32bg22_brd4184a")
   set(SILABS_GECKO_BOARD "brd4184a")
   set(PRODUCT_NO "sdid205")
